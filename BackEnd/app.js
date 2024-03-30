@@ -14,6 +14,6 @@ app.use(express.json());
 app.use(cors({
     origin:"*"
   }));
-app.use("/events", eventsRouter);
+app.use("", eventsRouter);
 
 export default app;

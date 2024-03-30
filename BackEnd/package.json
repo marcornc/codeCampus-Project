@@ -16,7 +16,8 @@
     "vitest": "^0.34.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "dev": "nodemon -r dotenv/config server.js",
     "db-reset": "node -r dotenv/config db/scripts/reset-all-tables.js"
 
